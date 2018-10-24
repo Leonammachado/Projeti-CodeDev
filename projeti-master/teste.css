@@ -1,0 +1,58 @@
+body {
+  font-family:Stencil Std;
+  background-size: cover;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-image:url(pc.png);
+			-webkit-background-size: 100% 100%;
+  			-moz-background-size: 100% 100%;
+  			-o-background-size: 100% 100%;
+  			background-size: 100% 100%;
+  			background-color:#000;
+  			background-attachment:fixed;
+}
+.main {
+  margin-top: 10%;
+}
+
+/* Formatação Menu */ 
+
+nav#menu ul{
+ list-style: none;
+  margin: 0;
+  padding: 2px;
+  color: white;
+  font-size: 20px;
+  line-height:40px;
+  overflow: hidden;
+  display: inline-block;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 10px;
+  left: 1050px;
+
+ 
+}
+nav#menu li{
+  display: inline;
+  font-family: "calibri";
+  text-transform: uppercase;
+  text-align: top;
+  padding: 10px;
+  background-color: #707070;
+  margin: 10px;
+  transition: background-color 1s;
+
+}
+nav#menu li:hover{
+background-color: #595959;
+
+} 
+nav#menu a{
+  color: black;
+}
+nav#menu a:hover {
+  color: #ffffff;
+}
